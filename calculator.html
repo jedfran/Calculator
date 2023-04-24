@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A basic HTML, CSS and JavaScript Calculator">
+        <meta name="author" content="Jedo Francisco">
+        <script src="./JS/cal.js" defer></script>
+        <link rel="stylesheet" href="./CSS/cal.css">
+    </head>
+    <body>
+
+        <!-- Main div container that will display calculator -->
+        <div class="calculator">
+            <!-- This input will display results of the calculation -->
+            <input type="text" class="calculator-screen" value="0" disabled>
+            <!-- This section displays all button that a user can press to make a calculation -->
+            <div class="calculator-keys">
+
+                <!-- Math Operators -->
+                <button type="button" class="operator" value="+">+</button>
+                <button type="button" class="operator" value="-">-</button>
+                <button type="button" class="operator" value="*">&times;</button>
+                <button type="button" class="operator" value="/">&divide;</button>
+                <!-- 7-9 -->
+                <button type="button" value = "7">7</button>
+                <button type="button" value = "8">8</button>
+                <button type="button" value = "9">9</button>
+                <!-- 4-6 -->
+                <button type="button" value = "6">6</button>
+                <button type="button" value = "5">5</button>
+                <button type="button" value = "4">4</button>
+                <!-- 1-3 -->
+                <button type="button" value = "3">3</button>
+                <button type="button" value = "2">2</button>
+                <button type="button" value = "1">1</button>
+                <!-- 0 -->
+                <button type="button" value = "0">0</button>
+                <!-- Decimal -->
+                <button type="button" class="decimal function" value = ".">.</button>
+                <!-- All Clear -->
+                <button type="button" class="all-clear function" value = "all-clear">AC</button>
+                <!-- Equal Sign -->
+                <button type="button" class="equal-sign operator" value = "=">=</button>
+                
+
+            </div>
+        </div>
+    </body>
+</html>
